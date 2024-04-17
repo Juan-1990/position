@@ -13,8 +13,12 @@ html{
     width: 100%;
     height: 100%;
     font-family: 'fuente-primaria';
-    background-color: rgb(146, 174, 174);
+   /*  background-color: rgb(146, 174, 174); */
+   background-image: url(images/oceano.jpg);
+   background-repeat: no-repeat; 
+   
 }
+
 
 p{
     text-align: justify;
@@ -24,6 +28,8 @@ p{
 img{
     width: 100%;
 }
+
+
 
 .fondo{
     max-width: 50rem;
@@ -91,6 +97,25 @@ img{
 }
 
 .ocho img{
+    width: 90px;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.235);
+    display: flex;
+    justify-content: space-around; /* centtar iconos */
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+}
+
+.logo{
+    padding: 15px;    
+}
+
+.logo img{
     width: 90px;
 }
 
